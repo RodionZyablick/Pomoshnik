@@ -1,0 +1,4 @@
+{"name":"ekran-pomoshnik","version":"1.0.0","description":"Объясняет непонятные экраны простыми словами и ведёт по шагам","main":"desktop/main.js",
+"scripts":{"start":"electron .","build":"electron-builder"},
+"devDependencies":{"electron":"^33.0.0","electron-builder":"^25.0.0"},
+"build":{"appId":"app.ekranpomoshnik","productName":"Экран-помощник","files":["app/**","desktop/**"],"win":{"target":"nsis"},"mac":{"target":"dmg"},"linux":{"target":"AppImage"}}}
